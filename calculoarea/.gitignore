@@ -1,0 +1,11 @@
+# Archivos de configuración de VS Code
+.vscode/
+
+# Archivos compilados
+*.exe
+*.o
+*.obj
+
+# Archivos temporales
+*.tmp
+*.log
