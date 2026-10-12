@@ -48,7 +48,7 @@ int main() {
     //    y guardar el resultado en 'ivaTotal', escribiríamos:
     //         double ivaTotal = calcularIva(precio);
     // ====================================================================
-    // [ESCRIBAN SU LÍNEA DE CÓDIGO AQUÍ]
+    double areaFinal = calcularAreaCirculo(radioEstudiante);
 
     // ====================================================================
     // 3. SALIDA DE DATOS (COMPLETAR)
@@ -58,7 +58,7 @@ int main() {
     //    Para mostrar texto y variables combinadas en pantalla:
     //         cout << "El total es: " << costoTotal << " pesos." << endl;
     // ====================================================================
-    // [ESCRIBAN SU LÍNEA DE CÓDIGO AQUÍ]
+    cout << "El area del circulo es: " << areaFinal << " cm2." << endl;
 
     // ====================================================================
     // BONUS GAMIFICACIÓN: RENDER DE LA DIANA EN CONSOLA
@@ -103,5 +103,6 @@ int main() {
 // ====================================================================
 double calcularAreaCirculo(double r) {
     const double PI = 3.1415926535;
-    // [DESARROLLEN LA LÓGICA Y RETORNEN EL RESULTADO AQUÍ]
+    double area = PI * r * r;
+    return area;
 }
